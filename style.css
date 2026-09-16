@@ -1,0 +1,74 @@
+/* Centers the app on the screen and sets a light background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Creates a neat white card for the form */
+.app-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+}
+
+/* Adds spacing between each input field */
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Styles the input boxes to look uniform */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't push width outside the box */
+}
+
+/* Simple button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a5acd; /* A soft purple color fitting for astrology */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #483d8b;
+}
+
+/* Styles the result div so it stands out slightly at the bottom */
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #e6e6fa;
+    border: 1px solid #d8bfd8;
+    border-radius: 4px;
+    text-align: center;
+    color: #333;
+}
