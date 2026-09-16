@@ -28,6 +28,6 @@ Built as a probation project for my web development society submission.
 ## 📁 File Structure
 
 ```text
-├── index.html    # Page structure & input form
+├── astrologyApp.html    # Page structure & input form
 ├── style.css     # Styling and visual presentation
 └── script4.js    # Form validation logic & astrological array calculations
